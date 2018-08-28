@@ -1,0 +1,6 @@
+
+{
+   "vga_set" : 0,
+   "vga_standby" : 0,
+   "prog_test" : 0
+}

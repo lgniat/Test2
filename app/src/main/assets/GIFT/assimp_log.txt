@@ -1,0 +1,15 @@
+Info,  T0: Load /GIFT/resources/models/chezi2.3DS
+Info,  T0: Found a matching importer for this file format
+Info,  T0: Import root directory is '/GIFT/resources/models/'
+Info,  T0: 3DS file format version: 3
+Warn,  T0: 3DS: Skipping TCB animation info
+Skipping one or more lines with the same contents
+Info,  T0: 3DS: Flipping mesh X-Axis
+Skipping one or more lines with the same contents
+Info,  T0: Entering post processing pipeline
+Info,  T0: Points: 0, Lines: 0, Triangles: 87, Polygons: 0 (Meshes, X = removed)
+Error, T0: FindInvalidDataProcess fails on mesh uvcoords: All vectors are identical
+Skipping one or more lines with the same contents
+Info,  T0: FindInvalidDataProcess finished. Found issues ...
+Error, T0: Unable to compute tangents: UV0 and normals must be there 
+Skipping one or more lines with the same contents

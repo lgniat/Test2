@@ -1,0 +1,60 @@
+frameworks\base\core\java\android\hardware\Camera.java
+
+	open360  ----------> native_setup_aw//Camera.java
+	                              android_hardware_Camera_native_setup_aw//android_hardware_Camera.cpp
+	                              				Camera::connect_aw//Camera.cpp
+	                              							CameraBase::connect_aw//CameraBase.cpp
+	                              										CameraService::connect_aw//CameraService.cpp
+	                              										      CameraService::connectHelper_aw//CameraService.h
+	                              										           CameraHardwareInterface::initialize_aw//CameraHardwareInterface.h
+	                              										           			CameraModule::open_aw//CameraModule.cpp
+	                              										           							HALCameraFactory::device_open_aw//HALCameraFactory.cpp
+	                              										           										HALCameraFactory::cameraDeviceOpen360//HALCameraFactory.cpp
+	                              										           												CameraManager::bv360Init//CameraManager.cpp
+	                              										           												CameraManager::set360ViewEnable//CameraManager.h
+	                              										           												CameraHardware::connectCamera//CameraHardware2.cpp
+	                              										           														V4L2CameraDevice::connectDevice//V4L2CameraDevice2.cpp
+	                              										           																V4L2CameraDevice::openCameraDev//V4L2CameraDevice2.cpp
+	                              										           												
+	                              										           												CameraHardware::Initialize//CameraHardware2.cpp
+	                              										           							
+	                              										           			CameraHardwareInterface::initHalPreviewWindow//CameraHardwareInterface.h
+
+
+
+
+
+
+
+
+
+	setPreviewTexture
+
+								              android_hardware_Camera_setPreviewTexture//android_hardware_Camera.cpp
+								              			Camera::setPreviewTarget//Camera.cpp
+								              						BpCamera::setPreviewTarget//ICamera.cpp
+								              								Camera2Client::setPreviewTarget//Camera2Client.cpp
+								              											Camera2Client::setPreviewWindowL//Camera2Client.cpp
+								              													StreamingProcessor::setPreviewWindow//StreamingProcessor.cpp
+
+
+
+
+
+
+
+
+
+
+
+
+
+	startPreview
+	
+										         android_hardware_Camera_startPreview//android_hardware_Camera.cpp
+										         				Camera::startPreview//Camera.cpp
+										         							BpCamera::startPreview//ICamera.cpp
+										         									Camera2Client::startPreview//Camera2Client.cpp
+										         												Camera2Client::startPreviewL//Camera2Client.cpp
+										         															StreamingProcessor::startStream//StreamingProcessor.cpp
+
